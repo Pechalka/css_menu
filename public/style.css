@@ -1,0 +1,209 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+body {
+  background: #ccc;
+}
+.container {
+  background: #fff;
+  margin: 0 auto;
+  width: 960px;
+  margin-top: 50px;
+  min-height: 500px;
+}
+.menu {
+  position: relative;
+  background: #222;
+  list-style: none;
+  color: #fff;
+}
+.menu a:hover {
+  background: #080808;
+}
+.menu li {
+  display: inline-block;
+}
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 60px;
+  font-size: 20px;
+  padding: 0 10px;
+  display: list-item;
+}
+.menu li:hover >ul {
+  display: inherit;
+}
+.menu ul {
+  list-style: none;
+  background: #fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 60px;
+  border: 1px solid rgba(0,0,0,0.15);
+  display: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+}
+.menu ul li {
+  position: relative;
+  display: list-item;
+  min-width: 170px;
+  position: relative;
+}
+.menu ul li a {
+  color: #333;
+}
+.menu ul li a:hover {
+  background: #f5f5f5;
+}
+.menu ul li ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
